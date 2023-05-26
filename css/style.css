@@ -28,12 +28,6 @@ body {
   align-items: center;
 }
 
-/* .contact-placement {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .menu-list-placement {
   display: flex;
   justify-content: center;
@@ -41,8 +35,6 @@ body {
   align-items: center;
   gap: 46px;
   padding-left: 93px;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
 }
 
 .contact-list-placement {
@@ -325,12 +317,6 @@ h2 {
   justify-content: center;
 }
 
-/* .column {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-} */
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -374,14 +360,6 @@ h2 {
   justify-content: flex-start;
   gap: 30px;
 }
-
-/* .content-box {
-  display: flex;
-  justify-content: space-between;
-  gap: 15px;
-  margin: 0 auto;
-  padding: 0 auto;
-} */
 
 .content-element {
   width: 270px;
@@ -597,14 +575,6 @@ h2 {
   padding-left: 24px;
 }
 
-/* .project-box:focus,
-.project-box:hover > .label-project {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: rgba(33, 150, 243, 0.9);
-} */
-
 .modal {
   position: absolute;
   width: 528px;
@@ -635,7 +605,7 @@ h2 {
 .is-hidden {
   pointer-events: none;
   visibility: hidden;
-  opacity: 0px;
+  opacity: 0;
   transition: opacity 1s;
   transition: visibility 1s;
 }
@@ -683,8 +653,6 @@ h2 {
 .services-description {
   padding-top: 27px;
   padding-bottom: 27px;
-  padding-left: auto;
-  padding-right: auto;
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
@@ -748,14 +716,7 @@ h2 {
   border-radius: 4px;
   border: none;
   color: #fff;
-  /* margin-left: auto; */
 }
-
-/* .email-send {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .send-box {
   height: 50px;
@@ -847,10 +808,6 @@ textarea {
   padding-top: 12px;
 }
 
-/* .modal-inputs label {
-  padding-bottom: 4px;
-} */
-
 .label-placement {
   padding-bottom: 4px;
 }
@@ -863,7 +820,6 @@ textarea {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #757575;
-  /* padding-bottom: 40px; */
 }
 
 .modal-forms textarea {
@@ -894,10 +850,6 @@ textarea {
   color: #757575;
 }
 
-/* .statute-checkbox svg {
-  position: absolute;
-} */
-
 .statute-checkbox a {
   color: var(--interaction-color);
   text-decoration-line: underline;
@@ -918,7 +870,6 @@ textarea {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  decoration: none;
   border: none;
   color: var(--interaction-color-2);
   background-color: var(--interaction-color);
@@ -964,7 +915,6 @@ textarea {
 
 .checkbox:checked + .checkbox-label svg {
   fill: var(--interaction-color);
-  /* background-color: var(--interaction-color); */
 }
 
 .checkbox:checked + .checkbox-label div {
@@ -979,8 +929,8 @@ textarea {
   outline: none;
 }
 
-/* .form-input:hover + .modal-icon,
+.form-input:hover + .modal-icon,
 .form-input:focus-within + .modal-icon {
   fill: var(--interaction-color);
   outline: none;
-} */
+}
